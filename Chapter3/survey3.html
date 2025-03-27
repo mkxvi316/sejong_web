@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소프트웨어 기술 설문지</title>
+</head>
+<body>
+    <h1>설문지</h1>
+    <p>소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</p>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>학년</legend>
+            <label><input type="radio" name="grade" value="1학년" checked> 1학년</label>
+            <label><input type="radio" name="grade" value="2학년"> 2학년</label>
+            <label><input type="radio" name="grade" value="3학년"> 3학년</label>
+            <label><input type="radio" name="grade" value="4학년"> 4학년</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>성별</legend>
+            <label><input type="radio" name="gender" value="남"> 남</label>
+            <label><input type="radio" name="gender" value="여"> 여</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>관심 분야</legend>
+            <select name="interest">
+                <option value="모바일 소프트웨어">모바일 소프트웨어</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>진로</legend>
+            <label><input type="checkbox" name="career" value="개발" checked> 개발</label>
+            <label><input type="checkbox" name="career" value="기획"> 기획</label>
+            <label><input type="checkbox" name="career" value="영업"> 영업</label>
+            <label><input type="checkbox" name="career" value="창업"> 창업</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>남기고 싶은 말</legend>
+            <textarea name="comments" rows="5" cols="40" placeholder="글을 남겨주세요"></textarea>
+        </fieldset>
+
+        <p>Copyright 2022 by Kitae</p>
+    </form>
+</body>
+</html>

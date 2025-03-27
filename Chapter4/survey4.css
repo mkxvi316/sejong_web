@@ -1,0 +1,15 @@
+body {background-color: aliceblue;}
+h1 {color: brown; text-align: center;}
+b {color: blue;}
+pre {
+    font-family: Nanum Pen Script;
+}
+p {
+    text-indent: 1em;
+    background-color: orange;
+    border-radius: 20px;
+    font-family: 휴먼편지체, Nanum Pen Script, Serif;
+}
+label {font-family: 휴먼편지체, Nanum Pen Script, Serif;}
+form {background-color: pink;}
+fieldset {border: none;}
